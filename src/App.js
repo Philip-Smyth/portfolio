@@ -55,7 +55,7 @@ function App() {
             </Card.Content>
             <Card.Content extra>
               <div className='ui'>
-                <Button basic color='purple' as='a' href='https://github.com/Philip-Smyth?tab=repositories' target="_blank">
+                <Button basic color='purple' as='a' href='https://github.com/Philip-Smyth?tab=repositories' target="_blank" rel="noreferrer">
                   View Github projects
                 </Button>
               </div>
@@ -74,10 +74,10 @@ function App() {
             </Card.Content>
             <Card.Content extra>
               <div className='ui buttons'>
-                <Button color='twitter' as='a' href='https://twitter.com/psmyth231' target="_blank">
+                <Button color='twitter' as='a' href='https://twitter.com/psmyth231' target="_blank" rel="noreferrer">
                   <Icon name='twitter' /> Twitter
                 </Button>
-                <Button color='linkedin' as='a' href='https://www.linkedin.com/in/psmyth231/' target="_blank">
+                <Button color='linkedin' as='a' href='https://www.linkedin.com/in/psmyth231/' target="_blank" rel="noreferrer">
                   <Icon name='linkedin' /> LinkedIn
                 </Button>
               </div>
@@ -96,7 +96,7 @@ function App() {
             </Card.Content>
             <Card.Content extra>
               <div className='ui'>
-                <Button basic color='purple' as='a' href='https://psmyth231.medium.com/' target="_blank">
+                <Button basic color='purple' as='a' href='https://psmyth231.medium.com/' target="_blank" rel="noreferrer">
                   <Icon name='medium' />
                   Medium
                 </Button>
@@ -127,10 +127,10 @@ function App() {
               <Button color='purple' onClick={() => setCaredemicOpen(true)}>
                   More info
                 </Button>
-                <Button color='blue' as='a' href="https://github.com/SaysKez/caredemic" target="_blank">
+                <Button color='blue' as='a' href="https://github.com/SaysKez/caredemic" target="_blank" rel="noreferrer">
                   Github
                 </Button>
-                <Button color='black' as='a' href="https://www.caredemic.life/" target="_blank">
+                <Button color='black' as='a' href="https://www.caredemic.life/" target="_blank" rel="noreferrer">
                   Website
                 </Button>
               </div>
@@ -167,7 +167,7 @@ function App() {
               <Button color='purple' onClick={() => setSpotifyOpen(true)}>
                 More info
               </Button>
-              <Button color='blue' as='a' href="https://github.com/Philip-Smyth" target="_blank">
+              <Button color='blue' as='a' href="https://github.com/Philip-Smyth" target="_blank" rel="noreferrer">
                 Github
               </Button>
               </div>
@@ -204,7 +204,7 @@ function App() {
                 <Button color='purple' onClick={() => setPortfolioOpen(true)}>
                   More info
                 </Button>
-                <Button color='blue' as='a' href="https://github.com/Philip-Smyth/portfolio" target="_blank">
+                <Button color='blue' as='a' href="https://github.com/Philip-Smyth/portfolio" target="_blank" rel="noreferrer">
                   Github
                 </Button>
               </div>
