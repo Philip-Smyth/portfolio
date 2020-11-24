@@ -5,6 +5,7 @@ import 'semantic-ui-css/semantic.min.css'
 import { Button, Container, Card, Divider, Header, Icon, Modal, Segment } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 import pdf from './cv.pdf';
+//<a href="#" onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;">MyPDF</a>
 
 function App() {
   const [spotifyOpen, setSpotifyOpen] = React.useState(false)
@@ -23,25 +24,6 @@ function App() {
       <Divider />
       <Container>
         <Card.Group itemsPerRow={1}>
-          <Card>
-            <Card.Content>
-              <Card.Header>
-                Resume/CV
-                <Icon name='newspaper outline' className="card-icon" float='right'/>
-              </Card.Header>
-              <Card.Meta>Overview of qualifications, experiance etc.</Card.Meta>
-              <Card.Description>
-                This is my current CV, it will cover generalized experiance, projects, education and so on that may or may not be present here. This can be viewed or downloaded.
-              </Card.Description>
-            </Card.Content>
-            <Card.Content extra>
-              <div className='ui buttons'>
-                <Button basic color='purple'>
-                  View CV
-                </Button>
-              </div>
-            </Card.Content>
-          </Card>
           <Card>
             <Card.Content>
               <Card.Header>
