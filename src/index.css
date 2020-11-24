@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.segment-header {
+  border-radius: 0 !important;
+}
+
+.card-icon {
+  padding-left: 1em;
+}
+
+.header-projects {
+  width: 100%;
+}
