@@ -201,9 +201,12 @@ function App() {
             </Card.Content>
             <Card.Content extra>
               <div className='ui'>
-              <Button color='purple' onClick={() => setPortfolioOpen(true)}>
-                More info
-              </Button>
+                <Button color='purple' onClick={() => setPortfolioOpen(true)}>
+                  More info
+                </Button>
+                <Button color='blue' as='a' href="https://github.com/Philip-Smyth/portfolio" target="_blank">
+                  Github
+                </Button>
               </div>
               <Modal
                 onClose={() => setPortfolioOpen(false)}
