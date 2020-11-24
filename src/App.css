@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #d9d8e0;
 }
 
 .App-logo {
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+div.ui.inverted.segment.segment-header {
+  background-color: #695E93 !important;
+}
+
+div.sub.header {
+  color: #dadada !important;
+}
+
+div.sub.header.project-subheader {
+  color: #282c34 !important;
 }

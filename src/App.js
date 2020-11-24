@@ -1,7 +1,7 @@
-import './App.css';
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css'
 import { Button, Container, Card, Divider, Header, Icon, Modal, Segment } from 'semantic-ui-react'
+import './App.css';
 
 function App() {
   const [spotifyOpen, setSpotifyOpen] = React.useState(false)
@@ -9,7 +9,7 @@ function App() {
   const [portfolioOpen, setPortfolioOpen] = React.useState(false)
   return (
     <div className="App">
-      <Segment color='purple' inverted className="segment-header">
+      <Segment inverted className="segment-header">
         <Header as='h1'>
           <Header.Content>
             Philip Smyth
@@ -65,7 +65,7 @@ function App() {
             <Card.Content>
               <Card.Header>
                 Medium Articles
-                <Icon name='sitemap' className="card-icon" float='right'/>
+                <Icon name='medium' className="card-icon" float='right'/>
               </Card.Header>
               <Card.Meta>Medium Stories</Card.Meta>
               <Card.Description>
@@ -85,7 +85,7 @@ function App() {
           <Header as='h1' className="header-projects" textAlign='center'>
             <Header.Content>
               Software Projects
-              <Header.Subheader>Various side-projects I have been working on currently or in the past.</Header.Subheader>
+              <Header.Subheader className="project-subheader">Various side-projects I have been working on currently or in the past.</Header.Subheader>
             </Header.Content>
           </Header>
           <Divider />
@@ -93,7 +93,7 @@ function App() {
             <Card.Content>
               <Card.Header>
                 Caredemic
-                <Icon name='sitemap' className="card-icon" float='right'/>
+                <Icon name='heart outline' className="card-icon" float='right'/>
               </Card.Header>
               <Card.Meta>How to help out during Covid-19</Card.Meta>
               <Card.Description>
@@ -133,7 +133,7 @@ function App() {
             <Card.Content>
               <Card.Header>
                 Spotify daily soundtrack
-                <Icon name='sitemap' className="card-icon" float='right'/>
+                <Icon name='spotify' className="card-icon" float='right'/>
               </Card.Header>
               <Card.Meta>Automating a daily soundtrack for myself on spotify</Card.Meta>
               <Card.Description>
@@ -170,7 +170,7 @@ function App() {
             <Card.Content>
               <Card.Header>
                 This portfolio site
-                <Icon name='sitemap' className="card-icon" float='right'/>
+                <Icon name='folder open outline' className="card-icon" float='right'/>
               </Card.Header>
               <Card.Meta>Created this to encapsulate what I have done and like to do</Card.Meta>
               <Card.Description>
