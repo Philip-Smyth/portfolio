@@ -1,11 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import 'semantic-ui-css/semantic.min.css'
 import { Button, Container, Card, Divider, Header, Icon, Modal, Segment } from 'semantic-ui-react'
-import { Link } from 'react-router-dom'
-import pdf from './cv.pdf';
-//<a href="#" onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;">MyPDF</a>
 
 function App() {
   const [spotifyOpen, setSpotifyOpen] = React.useState(false)
