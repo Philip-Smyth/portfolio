@@ -132,7 +132,7 @@ function App() {
           <Card>
             <Card.Content>
               <Card.Header>
-                Spotify daily soundtrack
+                Playlistr - a daily soundtrack generator
                 <Icon name='spotify' className="card-icon" float='right'/>
               </Card.Header>
               <Card.Meta>Automating a daily soundtrack for myself on spotify</Card.Meta>
@@ -145,7 +145,7 @@ function App() {
               <Button color='purple' onClick={() => setSpotifyOpen(true)}>
                 More info
               </Button>
-              <Button color='blue' as='a' href="https://github.com/Philip-Smyth" target="_blank" rel="noreferrer">
+              <Button color='blue' as='a' href="https://github.com/Philip-Smyth/playlistr" target="_blank" rel="noreferrer">
                 Github
               </Button>
               </div>
